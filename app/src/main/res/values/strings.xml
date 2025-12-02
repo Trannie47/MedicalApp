@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MedicalApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="Name">Name</string>
+    <string name="Phone">Phone</string>
+    <string name="Class">Class</string>
+    <string name="Student_ID">Student ID</string>
+    <string name="Medical">Medical</string>
+    <string name="Categories">Categories</string>
+    <string name="About">About</string>
+    <string name="Remember_Me">Remember me</string>
+    <string name="Drug">Drug</string>
+    <string name="Add_Drug">Add Drug</string>
+    <string name="Call_Number">Phone: 01234568985</string>
+
+    <string name="Text_Price">Price</string>
+    <string name="Text_Quality">Quality</string>
+    <string name="Text_Category">Category</string>
+    <string name="drug_image">Drug Image</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="drug_name">Drug Name</string>
+    <string name="drug_category">Drug Category</string>
+    <string name="drug_price">Drug Price</string>
+    <string name="drug_quantity">Drug Quantity</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="category_name">Category Name</string>
+    <string name="name_category">Name Category</string>
+    <string name="hint_category_name">Enter the category name</string>
+    <string name="home">Home</string>
+    <string name="switch_eng_or_vn">ENG/VIET</string>
+    <string name="selected_category_text">Selected Category:</string>
+    <string name="add_category">Add Category</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="class_text">Class:</string>
+    <string name="log_out">Log out</string>
+    <string name="catogory_code">Category Code</string>
+    <string name="category_code_placeholder">Enter the category code</string>
+    <string name="lbl_category_code">Category Code :</string>
+    <string name="space">:</string>
+
+
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="16dp"
+    app:strokeColor="#4CAF50"
+    app:strokeWidth="3dp"
+    app:cardElevation="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/drugImageViews"
+            android:layout_weight="3"
+            android:src="@drawable/ic_no_image"
+            android:layout_width="0dp"
+            android:layout_height="100dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            >
+            <TextView
+                android:id="@+id/drugNameTextView"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Tên sản phẩm"
+                android:textColor="@color/green_700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/drugPriceTextView"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/holo_red_light"
+                    android:text="@string/Text_Price"
+                    android:layout_width="72dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@android:color/holo_red_light"
+                    android:text="@string/space"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/drugPriceValueView"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="1000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/drugQuantityTextView"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/holo_red_light"
+                    android:text="@string/Text_Quality"
+                    android:layout_width="72dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@android:color/holo_red_light"
+                    android:text="@string/space"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/drugQuantityValueView"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/drugCategoryTextView"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/holo_red_light"
+                    android:text="@string/Text_Category"
+                    android:layout_width="72dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@android:color/holo_red_light"
+                    android:text="@string/space"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/drugCategoryValueView"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="Thuốc Ho"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

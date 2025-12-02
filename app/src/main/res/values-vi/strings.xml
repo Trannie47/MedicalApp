@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MedicalApp</string>
+    <string name="action_settings">Cài đặt</string>
+
+    <!-- Chuỗi dùng cho các fragment trong điều hướng -->
+    <string name="Name">Họ và tên</string>
+    <string name="Phone">Số điện thoại</string>
+    <string name="Class">Lớp</string>
+    <string name="Student_ID">Mã sinh viên</string>
+    <string name="Medical">Y tế</string>
+    <string name="Categories">Loại thuốc</string>
+    <string name="About">Tôi</string>
+    <string name="Remember_Me">Ghi nhớ đăng nhập</string>
+    <string name="Drug">Thuốc</string>
+    <string name="Add_Drug">Thêm thuốc</string>
+    <string name="Call_Number">Danh mục: 01234568985</string>
+
+    <string name="Text_Price">Giá</string>
+    <string name="Text_Quality">Số lượng</string>
+    <string name="Text_Category">Loại</string>
+    <string name="drug_image">Hình ảnh thuốc</string>
+    <string name="choose_image">Chọn hình ảnh</string>
+    <string name="drug_name">Tên thuốc</string>
+    <string name="drug_category">Loại</string>
+    <string name="drug_price">Giá thuốc</string>
+    <string name="drug_quantity">Số lượng thuốc</string>
+    <string name="save">Lưu</string>
+    <string name="delete">Xóa</string>
+    <string name="category_name">Tên loại</string>
+    <string name="name_category">Tên loại:</string>
+    <string name="hint_category_name">Nhập tên loại</string>
+    <string name="home">Trang chủ</string>
+    <string name="switch_eng_or_vn">ENG/VIET</string>
+    <string name="selected_category_text">Chọn loại thuốc:</string>
+    <string name="add_category">Thêm loại</string>
+    <string name="username">Tài khoản</string>
+    <string name="password">Mật khẩu</string>
+    <string name="class_text">Lớp :</string>
+    <string name="log_out">Đăng xuất</string>
+    <string name="catogory_code">Mã loại</string>
+    <string name="category_code_placeholder">Hãy nhập mã loại </string>
+    <string name="lbl_category_code">Mã Loại :</string>
+    <string name="space">:</string>
+</resources>
